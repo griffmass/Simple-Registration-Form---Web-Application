@@ -16,7 +16,16 @@ Before starting, ensure you have the following installed:
 
 ### 1. Clone or Download the Project
 
-Download or clone the project repository to your local machine.
+1. Clone or Download the Project
+To get started, clone this repository to your local machine using the following command:
+
+```
+
+git clone https://github.com/griffmass/Simple-Registration-Form---Web-Application
+
+```
+Alternatively, you can download the project as a ZIP file and extract it to your desired directory.
+
 
 ---
 
