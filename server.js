@@ -40,5 +40,5 @@ app.post('/post',async(req,res)=>{
 })
 
 app.listen(port,()=>{
-    console.log("server is running on port")
+    console.log("server is running")
 })
