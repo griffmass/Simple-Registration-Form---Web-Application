@@ -20,9 +20,7 @@ Before starting, ensure you have the following installed:
 To get started, clone this repository to your local machine using the following command:
 
 ```
-
 git clone https://github.com/griffmass/Simple-Registration-Form---Web-Application
-
 ```
 Alternatively, you can download the project as a ZIP file and extract it to your desired directory.
 
@@ -34,9 +32,7 @@ Alternatively, you can download the project as a ZIP file and extract it to your
 Open your terminal or command prompt and navigate to the project directory:
 
 ```
-
 cd your-project-directory
-
 ```
 
 ### 3. Initialize npm (If Not Already Initialized)
@@ -44,9 +40,7 @@ cd your-project-directory
 If the project does not already have a package.json file, initialize it:
 
 ```
-
 npm init --yes
-
 ```
 This will create a basic `package.json` file.
 
@@ -55,9 +49,7 @@ This will create a basic `package.json` file.
 Install the required Node.js packages for the project:
 
 ```
-
 npm install express mongoose path nodemon
-
 ```
 
 Installed Packages:
@@ -74,15 +66,11 @@ Installed Packages:
 
 To use `nodemon` as a global tool:
 ```
-
 npm install -g nodemon
-
 ```
 You can check the installed version:
 ```
-
 nodemon -v
-
 ```
 
 ### 5. Create the `server.js` File
@@ -133,7 +121,7 @@ app.post('/post',async(req,res)=>{
 })
 
 app.listen(port,()=>{
-    console.log("server is running on port")
+    console.log("server is running")
 })
 
 ```
@@ -144,16 +132,12 @@ Start the server using one of the following commands:
 
 • Using Node.js:
 ```
-
 node server.js
-
 ````
 
 • Using Nodemon (for automatic restarts):
 ```
-
 nodemon server.js
-
 ````
 
 ### 8. Access the Application
@@ -161,9 +145,7 @@ nodemon server.js
 Open your web browser and go to:
 
 ```
-
 http://localhost:3019
-
 ```
 
 # Notes
